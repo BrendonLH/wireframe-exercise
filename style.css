@@ -1,0 +1,17 @@
+nav {
+    background-color: grey;
+    height: 90px;
+}
+#logo {
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+.navitem {
+    display:inline-block;
+    color: white;
+    width: 200px;
+    height: 90px;
+}
