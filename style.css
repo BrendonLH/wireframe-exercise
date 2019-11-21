@@ -1,6 +1,7 @@
 nav {
     background-color: grey;
     height: 90px;
+    text-align: center;
 }
 #logo {
     background-color: black;
@@ -8,10 +9,24 @@ nav {
     width: 200px;
     height: 70px;
     float: left;
+    margin-top: 10px;
+    margin-left: 35px;
 }
 .navitem {
     display:inline-block;
     color: white;
     width: 200px;
-    height: 90px;
+    height: 70px;
+    background-color: darkgrey;
+    margin-top: 10px;
+    margin-left: 50px;
+    float: left;
+}
+section {
+    height: 450px;
+    width: 900px;
+    background-color:black; 
+    margin:auto;
+    margin-top: 30px;
+
 }
