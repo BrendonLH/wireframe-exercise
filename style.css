@@ -28,5 +28,13 @@ img {
     margin: 15px;
 }
 section {
-    margin-left: 250px ;
+    margin-left: 250px;
+}
+article {
+    width: 480px;
+    display: inline-block;
+    overflow: auto;
+    max-height: 480px;
+    position: relative;
+    margin-bottom: 15px;
 }
