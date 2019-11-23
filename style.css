@@ -33,8 +33,21 @@ section {
 article {
     width: 480px;
     display: inline-block;
+    /* overflow: auto; */
+    
+}
+p {
+    height: 387px;
     overflow: auto;
-    max-height: 480px;
-    position: relative;
     margin-bottom: 15px;
+    font-style: italic;
+}
+#sectionheader {
+    font-size: larger;
+}
+footer {
+    background-color:rgb(59, 55, 55);
+    height: 120px;
+    text-align: center;
+    line-height: 60px;
 }
