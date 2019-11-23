@@ -1,22 +1,24 @@
+body {
+    color: white;
+}
 nav {
     background-color:rgb(59, 55, 55);
     height: 90px;
     text-align: center;
     line-height: 60px;
-    margin-bottom: 15px;
 }
 #logo {
     background-color: black;
-    color: white;
+    /* color: white; */
     width: 200px;
     height: 70px;
     float: left;
     margin-top: 10px;
-    margin-left: 265px;
+    margin-left: 250px;
    
 }
 .navitem {
-    color: white;
+    /* color: white; */
     width:100px;
     height: 70px;
     /* background-color: darkgrey; */
@@ -25,29 +27,47 @@ nav {
     float: left;
 }
 img {
-    margin: 15px;
+    margin-top: 30px;
+    margin-right: 30px;    
 }
 section {
     margin-left: 250px;
 }
 article {
-    width: 480px;
+    /* margin-left: 30px; */
+    width: 450px;
     display: inline-block;
     /* overflow: auto; */
     
 }
 p {
-    height: 387px;
+    height: 340px;
     overflow: auto;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     font-style: italic;
+    color: black;
 }
 #sectionheader {
     font-size: larger;
+    color: black;
+    padding-bottom: 5px;
 }
 footer {
+    margin-top: 30px;
     background-color:rgb(59, 55, 55);
     height: 120px;
     text-align: center;
     line-height: 60px;
+}
+button {
+    position: relative;
+    bottom:8px;
+    background-color: black;
+    border: none;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+button:hover{
+    opacity:.5;
 }
